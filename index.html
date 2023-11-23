@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  <title>¡Quiero preguntarte algo especial!</title>
+</head>
+<body>
+
+  <div class="container" id="container">
+    <header>
+      <h1>¡Helen, quiero preguntarte algo especial!</h1>
+    </header>
+    <section>
+      <p>Desde que comenzamos a hablar, mi vida ha tomado un giro maravilloso. Cada momento contigo es precioso, y siento que nuestra conexión es única. Antes de continuar, por favor, presiona el botón de abajo.</p>
+      <button id="preguntaBtn">¿Quieres ser mi novia?</button>
+      <p id="respuesta"></p>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeBtn">&times;</span>
+            <p>¿Aceptas ser mi novia?</p>
+            <button id="siBtn">Sí</button>
+            <button id="noBtn">No</button>
+        </div>
+      </div>
+    </section>
+    <section id="pdfSection">
+      <a id="descargarBtn" href="assets/Querida Helen,  ❤️❤️.pdf" download="Carta Para Mi Helen">Carta para mi querida Helen</a>
+    </section>
+    <section id="galeria">
+        <div class="caja" id="caja1">
+          <div class="imagen" id="imagen1"></div>
+        </div>
+        <div class="caja" id="caja2">
+          <div class="imagen" id="imagen2"></div>
+        </div>
+        <div class="caja" id="caja3">
+            <div class="imagen" id="imagen3"></div>
+        </div>
+      </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
